@@ -1,0 +1,16 @@
+INSERT INTO names
+    (`name_en`, `name_te`, `name_hi`)
+VALUES
+	  ('Paul Schilmoeller', 'పాల్ Schilmoeller', 'पॉल Schilmoeller'),
+	  ('Jordan Grenier', 'జోర్డాన్ Grenier', 'जॉर्डन ग्रेनियर'),
+	  ('Patrick Viker', 'పాట్రిక్ Viker', 'पैट्रिक Viker'),
+ 	  ('Joshua Wilson', 'జాషువా విల్సన్', 'यहोशू विल्सन'),
+	  ('Kevin Casey', 'కెవిన్ కాసే', 'केविन केसी')
+;
+
+E0 B0 AA E0 B0 BE E0 B0 B2 E0 B1 8D 20 53 63 68 69 6C 6D 6F 65 6C 6C 65 72
+
+
+CREATE USER 'names_user'@'localhost' IDENTIFIED BY 'pass123';
+
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON dq4.* TO 'names_user'@'localhost';
