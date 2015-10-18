@@ -20,14 +20,14 @@
 			<?php
 			
 				/* UNCOMMENT FOR LOCAL DB CREDENTIALS */
-				// $dbUser = "names_user";			
-				// $dbPass = "pass123";				
-				// $db = "dq4";			
+				$dbUser = "names_user";			
+				$dbPass = "pass123";				
+				$db = "dq4";			
 			
 				/* UNCOMMENT FOR SERVER DB CREDENTIALS */
-				$dbUser = "ics325fa1528";		
-				$dbPass = "983278";				
-				$db = "ics325fa1528";	
+				// $dbUser = "ics325fa1528";		
+				// $dbPass = "983278";				
+				// $db = "ics325fa1528";	
 			
 				@ $db = mysqli_connect('localhost', $dbUser, $dbPass, $db);
 				
